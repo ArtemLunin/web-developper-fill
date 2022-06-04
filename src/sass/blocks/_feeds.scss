@@ -1,0 +1,34 @@
+.feeds {
+	padding-bottom: 48px;
+	h2 {
+		margin-bottom: 60px;
+	}
+	&__content {
+		width: 915px;
+	}
+	&-item {
+		display: flex;
+		margin-bottom: 60px;
+		justify-content: center;
+		align-items: flex-start;
+		&__img {
+			margin-right: 61px;
+			max-width: 100%;
+			height: 169px;
+		}
+		&__content {
+			max-width: 680px;
+			color: #0D0D0D;
+			&__name {
+				font-weight: 700;
+				font-size: 18px;
+				margin-bottom: 10px;
+			}
+			&__review {
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 24px;
+			}
+		}
+	}
+}
